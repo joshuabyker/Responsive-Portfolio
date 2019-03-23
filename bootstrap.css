@@ -1,0 +1,39 @@
+body{
+    background-image: url("img/dark-honeycomb.png");
+    
+}
+p{
+    color:whitesmoke;
+}
+
+.RPS{
+
+    background-image: url("img/RPS.png");
+   float: left;
+}
+.RPG{
+    background-image: url("img/drgnball.jpg");
+    float: right
+}
+.trivia{
+    background-image: url("img/rndm.png");
+    float: left;
+    float: right
+}
+.Rutgers{
+    background-image: url("img/rpggame.jpg");
+}
+.hm{
+    background-image: url("img/last.png")
+}
+.RPS, .RPG , .trivia , .Rutgers , .hm{
+    height:200px;
+    width:200px;
+    color: antiquewhite;
+}
+@media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
